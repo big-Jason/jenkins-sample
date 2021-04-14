@@ -7,7 +7,6 @@ pipeline {
             ansiColor(colorMapName: 'xterm') {
               ansiblePlaybook(
                 playbook: 'playbook.yml',
-#                inventory: 'inventory',
                 colorized: true)
             }
           }
